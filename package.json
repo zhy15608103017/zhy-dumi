@@ -74,5 +74,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "authors": []
+  "authors": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhy15608103017/zhy-dumi/"
+  }
 }
