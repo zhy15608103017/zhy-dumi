@@ -10137,7 +10137,7 @@
 
 "lodash@^4.17.11", "lodash@^4.17.12", "lodash@^4.17.15", "lodash@^4.17.20", "lodash@^4.17.21", "lodash@^4.17.4", "lodash@^4.17.5", "lodash@~4.17.15":
   "integrity" "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg=="
-  "resolved" "https://registry.npmmirror.com/lodash/-/lodash-4.17.21.tgz"
+  "resolved" "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
   "version" "4.17.21"
 
 "log-symbols@^2.1.0":
@@ -14849,12 +14849,6 @@
   dependencies:
     "estree-walker" "^0.6.1"
 
-"rollup-template-ts@file:E:\\jsd\\组件库\\zhy-dumi\\packages\\map":
-  "resolved" "file:packages/map"
-  "version" "1.0.6"
-  dependencies:
-    "ahooks" "^3.7.4"
-
 "rollup@^1.20.0 || ^2.0.0", "rollup@^1.20.0||^2.0.0", "rollup@^2 || ^3", "rollup@^2.38.3", "rollup@^2.42.0", "rollup@^2.57.0", "rollup@^2.79.1", "rollup@>=1.26.3", "rollup@2.x || 3.x":
   "integrity" "sha512-uKxbd0IhMZOhjAiD5oAFp7BqvkA4Dv47qpOCtaNvng4HBwdbWtdOh8f5nZNuk2rp51PMGk3bzfWu5oayNEuYnw=="
   "resolved" "https://registry.npmmirror.com/rollup/-/rollup-2.79.1.tgz"
@@ -17116,6 +17110,14 @@
     "validator" "^13.7.0"
   optionalDependencies:
     "commander" "^9.4.1"
+
+"zhy-drop-down-menu@file:E:\\jsd\\组件库\\zhy-dumi\\packages\\map":
+  "resolved" "file:packages/map"
+  "version" "0.0.2"
+  dependencies:
+    "@ant-design/icons" "^5.0.0"
+    "ahooks" "^3.7.4"
+    "antd" "^4.24.7"
 
 "zwitch@^2.0.0", "zwitch@^2.0.4":
   "integrity" "sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A=="

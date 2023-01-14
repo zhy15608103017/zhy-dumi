@@ -21,7 +21,8 @@
   "dependencies": {
     "@ant-design/icons": "^5.0.0",
     "ahooks": "^3.7.4",
-    "antd": "^4.24.7"
+    "antd": "^4.24.7",
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "@babel/core": "^7.15.5",
