@@ -1,0 +1,66 @@
+Arguments: 
+  E:\nodejs\node.exe E:\npmyarn\npm-cache\node_modules\yarn\bin\yarn.js workspace zhy-dumi/button add zhy-dumi/testp
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\安装的软件\Git\cmd;E:\安装的软件\微信web开发者工具\dll;E:\nodejs\;E:\npmyarn\npm-cache;D:\python\Scripts\;D:\python\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;E:\安装的软件\Microsoft VS Code\bin;E:\\npm&yarn;E:\npm&yarn\npm-cache\node_modules\yarn\bin\;C:\Users\Administrator\AppData\Roaming\npm;E:\npmyarn\npm-global\node_modules\pnpm\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.19.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: E:\jsd\组件库\zhy-dumi\packages\testp\package.json: Unexpected token } in JSON at position 1051
+      at JSON.parse (<anonymous>)
+      at E:\npmyarn\npm-cache\node_modules\yarn\lib\cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (E:\npmyarn\npm-cache\node_modules\yarn\lib\cli.js:310:30)
+      at E:\npmyarn\npm-cache\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "@zhy-dumi/testp",
+    "version": "0.0.1",
+    "main": "dist/index.js",
+    "types": "types/src/index.d.ts",
+    "license": "MIT", 
+    "scripts": {
+      "clean": "rimraf dist",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "npm run clean && tsc && rollup -c rollup.config.js",
+      "prepublish": "npm run build"
+    },
+    "files": [
+      "/dist",
+      "/src",
+      "/types"
+    ],
+    "devDependencies": {
+      "@babel/core": "^7.15.5",
+      "@babel/helper-module-imports": "^7.15.4",
+      "@babel/plugin-proposal-class-properties": "^7.14.5",
+      "@babel/plugin-transform-runtime": "^7.15.0",
+      "@babel/preset-env": "^7.15.4",
+      "@babel/preset-typescript": "^7.15.0",
+      "@rollup/plugin-babel": "^5.3.0",
+      "@rollup/plugin-commonjs": "^20.0.0",
+      "@rollup/plugin-json": "^4.1.0",
+      "@rollup/plugin-node-resolve": "^13.0.4",
+      "rimraf": "^3.0.2",
+      "rollup": "^2.57.0",
+      "rollup-plugin-img": "^1.1.0",
+      "rollup-plugin-typescript2": "^0.30.0",
+      "rollup-plugins-csc-images": "^1.0.1",
+      "typescript": "^4.4.3",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

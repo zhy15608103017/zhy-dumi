@@ -1,5 +1,23 @@
 {
-  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
   "useWorkspaces": true,
-  "version": "independent"
+  "npmClientArgs": [
+    "--prefer-offline"
+  ],
+  "npmClient": "yarn",
+  "command": {
+    "publish": {
+      "ignoreChanges": [
+        "ignored-file",
+        "*.md",
+        ".gitignore",
+        "package-lock.json",
+        ".DS_Store"
+      ],
+      "allowBranch": [
+        "main"
+      ]
+    }
+  },
+  "version": "independent",
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json"
 }

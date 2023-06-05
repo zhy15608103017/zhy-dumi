@@ -1,7 +1,7 @@
 ---
 hero:
   title: library
-  description: 0.01
+  description: 0.0.1
   actions:
     - text: Hello
       link: /
