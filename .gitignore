@@ -5,3 +5,5 @@ es
 .dumi/tmp-test
 .dumi/tmp-production
 .DS_Store
+docs-dist
+lerna-debug
