@@ -1,6 +1,6 @@
 {
   "name": "@zhy-dumi/testp",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "types/src/index.d.ts",
@@ -26,7 +26,7 @@
     "@rollup/plugin-commonjs": "^20.0.0",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.4",
-    "@zhy-dumi/button": "^0.0.5",
+    "@zhy-dumi/button": "^0.0.6",
     "rimraf": "^3.0.2",
     "rollup": "^2.57.0",
     "rollup-plugin-img": "^1.1.0",
