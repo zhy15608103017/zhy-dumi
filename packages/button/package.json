@@ -6,7 +6,6 @@
   "types": "types/src/index.d.ts",
   "files": [
     "/dist",
-    "/src",
     "/types"
   ],
   "scripts": {
