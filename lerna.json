@@ -1,25 +1,22 @@
-{ "packages": [
-  "packages/*"
-],
+{
+  "packages": ["packages/*"],
   "useWorkspaces": true,
-  "npmClientArgs": [
-    "--prefer-offline"
-  ],
+  "npmClientArgs": ["--prefer-offline"],
   "npmClient": "yarn",
+  "publishConfig": {
+    "access": "public"
+  },
   "command": {
     "publish": {
       "registry": "https://registry.npmjs.org/",
       "ignoreChanges": [
-     
         "ignored-file",
         "*.md",
         ".gitignore",
         "package-lock.json",
         ".DS_Store"
       ],
-      "allowBranch": [
-        "main"
-      ]
+      "allowBranch": ["main"]
     }
   },
   "version": "independent",
