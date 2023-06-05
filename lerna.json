@@ -8,7 +8,9 @@
   "npmClient": "yarn",
   "command": {
     "publish": {
+      "registry": "https://registry.npmjs.org/",
       "ignoreChanges": [
+     
         "ignored-file",
         "*.md",
         ".gitignore",
