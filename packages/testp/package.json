@@ -33,5 +33,6 @@
     "rollup-plugin-typescript2": "^0.30.0",
     "rollup-plugins-csc-images": "^1.0.1",
     "typescript": "^4.4.3"
-  }
+  },
+  "gitHead": "4d6a3b0c3c9016f398beaee3ca2f41fe6aff776c"
 }
