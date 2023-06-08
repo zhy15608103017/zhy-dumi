@@ -1,4 +1,4 @@
-import Button from './../../../packages/button';
+import Button from '@zhy-dumi/button';
 const App = () => {
   return <Button></Button>;
 };
