@@ -1,6 +1,7 @@
 {
   "name": "zhy-dumi",
   "version": "0.0.1",
+  "private": true,
   "description": "zhy的测试版组件库",
   "repository": "https://github.com/zhy15608103017/zhy-dumi.git",
   "license": "MIT",

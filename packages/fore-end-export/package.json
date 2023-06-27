@@ -1,6 +1,6 @@
 {
   "name": "@zhy-dumi/fore-end-export",
-  "version": "1.0.3",
+  "version": "0.0.1",
   "description": "",
   "license": "ISC",
   "author": "",
@@ -20,5 +20,5 @@
   "devDependencies": {
     "xlsx": "0.18.5"
   },
-  "gitHead": "ce38198fe759c5a986b8f6ee9455436b27e8c8c3"
+  "gitHead": "0b35f0b252586bd3aa5e2c0cfe5396c231b1498b"
 }
