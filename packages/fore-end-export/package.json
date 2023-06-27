@@ -19,5 +19,6 @@
   },
   "devDependencies": {
     "xlsx": "0.18.5"
-  }
+  },
+  "gitHead": "ce38198fe759c5a986b8f6ee9455436b27e8c8c3"
 }
