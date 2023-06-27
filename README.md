@@ -38,3 +38,9 @@ $ yarn run doctor
 ## LICENSE
 
 MIT
+
+## lerna 发包简易流程
+
+1. lerna bootstrap
+2. npm login
+3. lerna publish
