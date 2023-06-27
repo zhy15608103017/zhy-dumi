@@ -20,5 +20,8 @@
   "devDependencies": {
     "xlsx": "0.18.5"
   },
-  "gitHead": "0b35f0b252586bd3aa5e2c0cfe5396c231b1498b"
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "827074e6af9b4b6102796d82d603e0f2f6846695"
 }
