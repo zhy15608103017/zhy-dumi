@@ -1,0 +1,267 @@
+
+
+.fore-end-export-disgraceful{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(253, 250, 250, 0.8); /* 半透明黑色背景 */
+  z-index: 999999999; /* 确保蒙层在其他元素之上 */
+}
+.fore-spin {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-varifore: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: 'tnum', "tnum";
+  position: absolute;
+  display: none;
+  color: #ffc500;
+  text-align: center;
+  vertical-align: middle;
+  opacity: 0;
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+.fore-spin-spinning {
+  position: static;
+  display: inline-block;
+  opacity: 1;
+}
+.fore-spin-nested-loading {
+  position: relative;
+}
+.fore-spin-nested-loading > div > .fore-spin {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-height: 400px;
+}
+.fore-spin-nested-loading > div > .fore-spin .fore-spin-dot {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -10px;
+}
+.fore-spin-nested-loading > div > .fore-spin .fore-spin-text {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  padding-top: 5px;
+  text-shadow: 0 1px 2px #fff;
+}
+.fore-spin-nested-loading > div > .fore-spin.fore-spin-show-text .fore-spin-dot {
+  margin-top: -20px;
+}
+.fore-spin-nested-loading > div > .fore-spin-sm .fore-spin-dot {
+  margin: -7px;
+}
+.fore-spin-nested-loading > div > .fore-spin-sm .fore-spin-text {
+  padding-top: 2px;
+}
+.fore-spin-nested-loading > div > .fore-spin-sm.fore-spin-show-text .fore-spin-dot {
+  margin-top: -17px;
+}
+.fore-spin-nested-loading > div > .fore-spin-lg .fore-spin-dot {
+  margin: -16px;
+}
+.fore-spin-nested-loading > div > .fore-spin-lg .fore-spin-text {
+  padding-top: 11px;
+}
+.fore-spin-nested-loading > div > .fore-spin-lg.fore-spin-show-text .fore-spin-dot {
+  margin-top: -26px;
+}
+.fore-spin-container {
+  position: relative;
+  transition: opacity 0.3s;
+}
+.fore-spin-container::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  display: none \9;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  opacity: 0;
+  transition: all 0.3s;
+  content: '';
+  pointer-events: none;
+}
+.fore-spin-blur {
+  clear: both;
+  overflow: hidden;
+  opacity: 0.5;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none;
+}
+.fore-spin-blur::after {
+  opacity: 0.4;
+  pointer-events: auto;
+}
+.fore-spin-tip {
+  color: rgba(0, 0, 0, 0.45);
+}
+.fore-spin-dot {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  width: 1em;
+  height: 1em;
+}
+.fore-spin-dot-item {
+  position: absolute;
+  display: block;
+  width: 9px;
+  height: 9px;
+  background-color: #ffc500;
+  border-radius: 100%;
+  transform: scale(0.75);
+  transform-origin: 50% 50%;
+  opacity: 0.3;
+  animation: foreSpinMove 1s infinite linear alternate;
+}
+.fore-spin-dot-item:nth-child(1) {
+  top: 0;
+  left: 0;
+}
+.fore-spin-dot-item:nth-child(2) {
+  top: 0;
+  right: 0;
+  animation-delay: 0.4s;
+}
+.fore-spin-dot-item:nth-child(3) {
+  right: 0;
+  bottom: 0;
+  animation-delay: 0.8s;
+}
+.fore-spin-dot-item:nth-child(4) {
+  bottom: 0;
+  left: 0;
+  animation-delay: 1.2s;
+}
+.fore-spin-dot-spin {
+  transform: rotate(45deg);
+  animation: foreRotate 1.2s infinite linear;
+}
+.fore-spin-sm .fore-spin-dot {
+  font-size: 14px;
+}
+.fore-spin-sm .fore-spin-dot i {
+  width: 6px;
+  height: 6px;
+}
+.fore-spin-lg .fore-spin-dot {
+  font-size: 32px;
+}
+.fore-spin-lg .fore-spin-dot i {
+  width: 14px;
+  height: 14px;
+}
+.fore-spin.fore-spin-show-text .fore-spin-text {
+  display: block;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /* IE10+ */
+  .fore-spin-blur {
+    background: #fff;
+    opacity: 0.5;
+  }
+}
+@keyframes foreSpinMove {
+  to {
+    opacity: 1;
+  }
+}
+@keyframes foreRotate {
+  to {
+    transform: rotate(405deg);
+  }
+}
+.fore-spin-rtl {
+  direction: rtl;
+}
+.fore-spin-rtl .fore-spin-dot-spin {
+  transform: rotate(-45deg);
+  animation-name: foreRotateRtl;
+}
+@keyframes foreRotateRtl {
+  to {
+    transform: rotate(-405deg);
+  }
+}
+.fore-spin-text{
+    font-size: 14px;
+    color: #444;
+}
+
+#loading-animation::after {
+  content: "...";
+  animation: loading-animation 1s infinite ;
+  
+} 
+#loading-animation{
+  display: inline-block;
+  width: 10px;
+  margin-right: -10px;
+}
+@keyframes loading-animation {
+  0% { content: "."; }
+  33% { content: ".."; }
+  67% { content: "..."; }
+}
+@keyframes ellipsis {
+  0% {
+    opacity: 0.2;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+
+.fore-loading-dots {
+  display: inline-block;
+  text-align: center;
+  font-size: 24px;
+  margin-right:-20px;
+}
+
+.fore-dot {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  margin: 0 px;
+  border-radius: 50%;
+  /* background-color: #000; */
+  animation: ellipsis 1s infinite;
+}
+
+.fore-dot:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.fore-dot:nth-child(3) {
+  animation-delay: 0.4s;
+}
