@@ -3688,6 +3688,11 @@
   resolved "https://registry.npmjs.org/@umijs/zod2ts/-/zod2ts-4.0.70.tgz#b3637dc824d17895309d69867e5b8a17cf6fcd89"
   integrity sha512-W7Uvyb9Rx3OjUuxrgTaUdkffHNH8yEVG2TW0AgEirNL0os/mC6Wp60r5lRCftgVe+sh9d6L0x2eqp05065fTzg==
 
+"@vercel/analytics@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/@vercel/analytics/-/analytics-1.0.1.tgz#38308a626c91866cb00a249c08bf65251e9b9d81"
+  integrity sha512-Ux0c9qUfkcPqng3vrR0GTrlQdqNJ2JREn/2ydrVuKwM3RtMfF2mWX31Ijqo1opSjNAq6rK76PwtANw6kl6TAow==
+
 "@vercel/ncc@0.33.3":
   version "0.33.3"
   resolved "https://registry.npmjs.org/@vercel/ncc/-/ncc-0.33.3.tgz#aacc6b3ea9f7b175e0c9a18c9b97e4005a2f4fcc"
