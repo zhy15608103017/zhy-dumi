@@ -1,7 +1,9 @@
 node_modules
 dist
 es
-.dumi
+.dumi/tmp
+.dumi/tmp-test
+.dumi/tmp-production
 build
 .DS_Store
 docs-dist

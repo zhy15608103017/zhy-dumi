@@ -4,7 +4,7 @@ hero:
   description: 自用组件库
   actions:
     - text: 组件
-      link: /components
+      link: /components/foreendexport
     - text: 快速上手
       link: /guide
 features:
@@ -27,5 +27,3 @@ features:
     emoji: 💎
     description: 提供与全新的 NPM 包研发工具 <a href="https://github.com/umijs/father" target="_blank" rel="noreferrer">father 4</a> 集成的脚手架，为开发者提供一站式的研发体验
 ---
-
-zhy-dumi

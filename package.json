@@ -45,6 +45,9 @@
       "prettier --parser=typescript --write"
     ]
   },
+  "dependencies": {
+    "@vercel/analytics": "^1.0.1"
+  },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
