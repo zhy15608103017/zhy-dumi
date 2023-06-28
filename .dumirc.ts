@@ -1,8 +1,13 @@
 import { defineConfig } from 'dumi';
 
 export default defineConfig({
-  outputPath: 'docs-dist',
-  themeConfig: {
-    name: 'zhy-dumi',
+  outputPath: 'build',
+
+  resolve: {
+    atomDirs: [
+      // { type: 'component', dir: 'doc' },
+    ],
   },
+  monorepoRedirect: true,
+  // plugins: ['./plugin/symlink'],
 });

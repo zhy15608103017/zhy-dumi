@@ -1,7 +1,0 @@
-44 error Error: Command failed with exit code 128: git tag @zhy-dumi/fore-end-export@1.0.1 -m @zhy-dumi/fore-end-export@1.0.1
-44 error fatal: tag '@zhy-dumi/fore-end-export@1.0.1' already exists
-44 error     at makeError (E:\jsd\组件库\zhy-dumi\node_modules\execa\lib\error.js:60:11)
-44 error     at handlePromise (E:\jsd\组件库\zhy-dumi\node_modules\execa\index.js:118:26)
-44 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
-44 error     at async Promise.all (index 0)
-44 error     at async Promise.all (index 0)

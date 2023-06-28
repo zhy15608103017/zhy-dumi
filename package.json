@@ -6,9 +6,6 @@
   "repository": "https://github.com/zhy15608103017/zhy-dumi.git",
   "license": "MIT",
   "author": "zhy <2089720408@qq.com>",
-  "files": [
-    "dist"
-  ],
   "workspaces": [
     "packages/*"
   ],
@@ -47,10 +44,6 @@
       "eslint --fix",
       "prettier --parser=typescript --write"
     ]
-  },
-  "dependencies": {
-    "@zhy-dumi/button": "^0.0.10",
-    "antd": "^5.6.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",

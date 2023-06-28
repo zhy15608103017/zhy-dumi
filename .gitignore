@@ -1,9 +1,8 @@
 node_modules
 dist
 es
-.dumi/tmp
-.dumi/tmp-test
-.dumi/tmp-production
+.dumi
+build
 .DS_Store
 docs-dist
 lerna-debug
