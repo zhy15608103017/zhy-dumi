@@ -15,8 +15,8 @@ const fs = require('fs');
 // 模版地址
 const codeWarehouse = {
   '普通项目': 'https://gitee.com/zhonghaiyan/template.git',
-  'widget': 'http://gitlab.jusda.int/chinasoft.lj.zhao/widget-template',
-  '组件模版': 'http://gitlab.jusda.int/chinasoft.lj.zhao/rollup-template'
+  'widget': 'https://gitee.com/zhonghaiyan/widget-template.git',
+  '组件模版': 'https://gitee.com/zhonghaiyan/rollup-template.git'
 }
 const editpackage = (options) => {
   const filePath = './package.json';
