@@ -1,6 +1,6 @@
 {
-  "name": "zhy-cli",
-  "version": "1.0.4",
+  "name": "zhydumi-cli",
+  "version": "1.0.1",
   "description": "自用脚手架",
   "keywords": [
     "cli",
@@ -12,7 +12,7 @@
   },
   "main": "src/main.js",
   "bin": {
-    "zhy-cli": "bin/create-project.js"
+    "zhydumi-cli": "bin/create-project.js"
   },
   "files": [
     "bin/",
@@ -38,5 +38,5 @@
     "pkg-install": "^1.0.0",
     "rimraf": "^3.0.2"
   },
-  "gitHead": "3de396dab07c132bacdbe63f62f94823171123ac"
+  "gitHead": "cfdf255eecb74f578e3d8ce638d2008603e49361"
 }
