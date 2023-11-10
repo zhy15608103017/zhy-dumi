@@ -31,7 +31,6 @@ const editpackage = (options) => {
 
     // 修改 name 字段
     packageJson.name = options.packageName;
-       console.log(packageJson);
     // 将修改后的 JSON 数据写回到文件
     const modifiedContent = JSON.stringify(packageJson, null, 2);
 
