@@ -1,6 +1,6 @@
 {
   "name": "zhy-cli",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "自用脚手架",
   "keywords": [
     "cli",
@@ -38,5 +38,5 @@
     "pkg-install": "^1.0.0",
     "rimraf": "^3.0.2"
   },
-  "gitHead": "3b2bb84114a714c6d166f3bf78cdc6736c014e49"
+  "gitHead": "3de396dab07c132bacdbe63f62f94823171123ac"
 }
