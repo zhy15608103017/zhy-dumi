@@ -8,3 +8,4 @@ build
 .DS_Store
 docs-dist
 lerna-debug
+.lock
