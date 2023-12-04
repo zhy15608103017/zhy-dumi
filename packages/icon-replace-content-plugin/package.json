@@ -1,5 +1,5 @@
 {
-  "name": "replace-content-plugin",
+  "name": "icon-replace-content-plugin",
   "version": "1.0.0",
   "description": "乾坤子应用图标冲突",
   "keywords": [
@@ -17,5 +17,6 @@
   "scripts": {
     "clean": "rimraf ./dist",
     "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  },
+  "gitHead": "da0a31896174331ace4d90599b019e908999b63b"
 }

@@ -9,7 +9,7 @@ class ReplaceContentPlugin {
   apply(compiler) {
     // 注册 beforeCompile 钩子，该钩子在编译前运行
     compiler.hooks.beforeCompile.tapAsync(
-      'replace-content-plugin',
+      'icon-replace-content-plugin',
       (params, callback) => {
         // 获取项目根目录
         const projectRoot = compiler.options.context || process.cwd();
@@ -38,7 +38,7 @@ class ReplaceContentPlugin {
 
     // 注册 emit 钩子
     compiler.hooks.emit.tapAsync(
-      'replace-content-plugin',
+      'icon-replace-content-plugin',
       (compilation, callback) => {
         // 遍历所有文件
         Object.keys(compilation.assets).forEach((filename) => {
