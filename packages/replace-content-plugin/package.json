@@ -1,0 +1,23 @@
+{
+  "name": "replace-content-plugin",
+  "version": "1.0.0",
+  "description": "乾坤子应用图标冲突",
+  "keywords": [
+    "plugin",
+    "create-project"
+  ],
+  "license": "ISC",
+  "author": {
+    "name": "zhy"
+  },
+  "main": "src/index.js",
+  "files": [
+    "src/"
+  ],
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "gitHead": "cfdf255eecb74f578e3d8ce638d2008603e49361"
+}
