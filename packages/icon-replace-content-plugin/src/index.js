@@ -76,6 +76,15 @@ class ReplaceContentPlugin {
         return match + `("${packageJsonName}").concat`;
       });
     }
+    const templateStringRegex = /xlinkHref\s*:\s*`#\$\{([^}]+)\}`/g;
+    if (svgContent.match(templateStringRegex)) {
+      svgContent = svgContent.replace(
+        templateStringRegex,
+        (match, variable) => {
+          return `xlinkHref: \`#${packageJsonName}\${${variable}}\``;
+        },
+      );
+    }
     return svgContent;
   }
 }
